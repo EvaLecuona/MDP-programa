@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;    
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+header img{
+    max-width: 10%; 
+    float: left; 
+}
+header{
+    background-color: antiquewhite;
+    height: 130px;    
+}
+header nav{
+    height: 130px;
+    padding-top: 15px;
+}
+header nav ol{
+    list-style-type: none;
+}
+header nav ol li{
+    float: left;
+    list-style-type: none;
+}
+header nav ol li a{
+    text-decoration: solid;
+    padding: 40px 40px 30px 60px;
+    display: inline-block;
+    color: rgb(240, 146, 6);
+}
+header nav ol li a:hover{
+    background-color: rgb(211, 110, 85);
+}
+main{
+    width: 60%;
+    float: left;
+    background-color: blanchedalmond;
+    clear:both;
+}
+main section{
+    padding: 30px;
+
+}
+main section h2{
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: 20px;  
+}
+main section p{
+    color: grey;
+    text-align:start;
+    margin-bottom: 15px;
+    line-height: 100%;
+}
+aside{
+    width: 20%;
+    background-color: antiquewhite;
+    float: left;
+    padding: 30px;
+}
+aside h2, aside ul li{
+    color: rgba(69, 42, 80, 0.418);
+    margin-bottom: 20%;
+
+}
+aside ul li{
+    list-style-type: none;
+    border-bottom: 3px cornflowerblue;
+}
+aside ul li:hover{
+    border: 3px double cornflowerblue;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(168, 116, 216);
+}
+footer{
+    clear:both;
+    width: 70%;
+    background-color: bisque;
+    padding: 70px;
+}
+footer section{
+    width: 33.3%;
+    float: left;
+}
+footer section p{
+    color: violet;
+    text-align: center;
+}
+.test{
+    box-shadow: 0 4px 8px 0 rgba(69, 42, 80, 0.418);
+
+}
+.test img{
+    max-width: 20%;
+    background-color: bisque;
+}
+.test:hover{
+    box-shadow: 0 10px 20px rgba(69, 42, 80, 0.418);
+}
