@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flexA{
+    background-color: beige;
+    width: 99%;
+    height: 500px;
+    margin: 3px;
+    display: flex;
+    border: solid 5px rgb(182, 148, 107);
+    border-radius: 6px;
+
+}
+.flex-containerA{
+    width: 99%;
+    height: 400px;
+    margin: 2px;
+    background-color: beige; 
+    border: solid 6px rgb(182, 148, 107);
+    border-radius: 6px;
+
+}
+.flex-containerA2{
+    width: 95%;
+    height: 25%;
+    border: double 2px rgb(221, 202, 32);
+    border-radius: 10px;
+    padding-left: 50px;
+    color:rgb(226, 147, 42) ;
+    font-size: 20px;
+    margin: 25px;
+    background-color: rgb(224, 206, 183) ;
+    
+}
+.flex-containerA3{
+    width: 95%;
+    height: 25%;
+    border: double 2px rgb(221, 202, 32);
+    border-radius: 10px;
+    padding-left: 50px;
+    color:rgb(226, 147, 42) ;
+    font-size: 20px;
+    margin: 25px;
+    background-color: rgb(224, 206, 183) ;
+}
+.flex-containerA4{
+    width: 95%;
+    height: 25%;
+    border: double 2px rgb(221, 202, 32);
+    border-radius: 10px;
+    padding-left: 50px;
+    color:rgb(226, 147, 42) ;
+    font-size: 20px;
+    margin: 25px;
+    background-color: rgb(224, 206, 183) ;
+}
+.First{
+    width:30%;
+    height: 400px;
+
+}
+.Second{
+    width: 100%;
+}
+.Third{
+    width: 100%;
+    display: flex;
+}
+.Four{
+    width: 100%;
+    display: flex; 
+}
+.flex-containerB1{
+    background-color: beige;
+    height: 500px;
+    border: double 2px orange;
+    color:rgb(226, 147, 42) ;
+    font-size: 30px;
+    padding-left: 40px;
+   
+}
+.flex-containerB{
+    background-color: beige;
+    height: 248px;
+    width: 100%;
+    border: double 2px orange;
+    color:rgb(226, 147, 42) ;
+    font-size: 30px;
+    padding-left: 40px;
+    
+}
+.flex-containerB5{
+    background-color: white;
+    height: 248px;
+    width: 100%;
+    border: double 2px orange;
+    color:rgb(226, 147, 42) ;
+    font-size: 30px;
+    padding-left: 40px;
+    
+}
