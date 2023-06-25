@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    width: 340px;
+    position: relative;
+}
+.grid1{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    z-index: 1;  
+    
+}
+.grid2{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 20%;
+    z-index: 2;
+   
+}
+.grid3{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 40%;
+    z-index: 3;
+}
