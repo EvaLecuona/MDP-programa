@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+header img{
+    max-width: 20%; 
+    float: left; 
+    border-bottom: 2px solid orange;
+    box-shadow: 0 4px 8px 0 orange ;
+}
+
+header{
+    background-color: beige;
+    height: 360px;
+    font-family: 'Times New Roman', Times, serif;
+}
+header h1 p{
+    float: left;
+    padding: 10px 20px 10px 70px;
+    padding-top: 100px;
+
+}
+main{
+    color:black;
+    font-size: 1.2em;
+    margin-bottom: 20px; 
+    background-color: rgb(245, 245, 220);
+    
+    clear: both;
+}
+main section p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 15px;
+    line-height: 100%;
+}
+main section h2{
+    border-bottom: 3px solid grey;
+    text-align: center;
+
+}
+main div h3{
+    border-bottom: 3px solid grey;
+    text-align: center;
+}
+main div ul li{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    text-align: center;
+}  
+aside{
+    width: 20%;
+    background-color: beige;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+aside h3{
+    border-bottom: 3px solid grey;
+    text-align: center;
+}
+.container{
+    text-align: center;
+    border: 2px double grey;
+}
+.skill{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: grey;
+}
+.jira{
+    width: 100%;
+    background-color: orange;
+    
+}
+.trello{
+    width: 100%;
+    background-color: orange;
+   
+}
+.selenium{
+    width: 50%;
+    background-color: orange;
+    
+}
+.git{
+    width: 80%;
+    background-color: orange;
+    
+}
+footer{
+    clear:both;
+    width: 70%;
+    background-color: beige;
+    padding: 80px;
+    clear:both;
+}
+footer a{
+    padding: 10px 20px 10px 100px;
+    color: orange;
+}
+@media (min-width:50px) and (max-width:800px){
+    img{
+        border:2px solid black;
+        display: none;
+    }
+}
+@media (max-width:880px){
+    header,img,main,aside,footer{
+        width: 100%;
+        background-color: aquamarine;
+    }
+}
+@media print{
+    img{
+       display: none;
+    }
+}
