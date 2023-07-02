@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+}
+header{
+    width: 100%;
+    display: flex;
+    background-color: aqua;
+    margin: 3px;
+    height: 200px;
+}
+header img{
+    width: 100%;
+    height: 200px;
+    border: 5px solid black;
+    padding: 10px;
+}
+header text{
+    padding: 60px 80px 60px 80px;
+    padding-top: 100px;
+    background-color: rgba(7, 244, 244, 0.607);
+}
+header text:hover{
+    color: blue;
+    cursor: pointer;
+}
+.text1{
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    z-index: 1;
+    right: 50%;
+    font-size: 30px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text2{
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    z-index: 2;
+    right: 30%;
+    font-size: 30px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.text3{
+    position: absolute;
+    width: 20%;
+    height: 200px;
+    z-index: 3;
+    right: 10%;
+    font-size: 30px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+main{
+    width: 100%;
+    margin: 3px;
+    background-color: aqua;
+    display: flex;
+    border: 5px solid black;
+}
+.image{
+    width: 60%;
+    padding: 5px;
+}
+.image:hover{
+    opacity: 0.9;
+    cursor: pointer;
+
+}
+.image1{
+    width: 100%;
+    height: 400px;
+}
+.image1:hover{
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.grid{
+    width: 100%;
+    display: flex;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.grid1{
+    width: 33%;
+    border: 3px solid black;
+   
+}
+.grid2{
+    width: 33%;
+    border: 3px solid black;
+ 
+}
+.grid3{
+   width: 35%;
+   border: 3px solid black;
+   padding-top: 20px;
+}
+.card{
+    border: 1px solid black;
+    margin: 40px;
+    text-align: center;
+    
+}
+.price{
+    position: relative;
+    right:150px;
+    top: 15px;
+    text-decoration:solid;
+    font-size: 25px;
+    
+}
+.cart{
+    position: relative;
+    left: 150px;
+    bottom: 15px;
+    text-decoration: dashed;
+    font-size: 25px;
+    color: rgba(137, 43, 226, 0.44);
+}
+.cart:hover{
+    cursor: pointer;
+    color: rgba(120, 8, 225, 0.807);
+}
+.icono{
+    position: relative;
+    bottom:15px;
+    right: 55px;
+    font-size: 40px;
+}
+.icono:hover{
+    color: red;
+    cursor: pointer;
+}
+.icono1{
+    position: relative;
+    bottom: 50px;
+    left: 260px;
+    font-size: 40px;
+}
+.icono1:hover{
+    color: red;
+    cursor: pointer;
+}
+.secondflex{
+    width: 100%;
+
+}
+.secondflex1{
+    display: flex;
+    
+}
+.image2{
+    width: 20%;
+    margin: 2.5%;
+    border-radius: 5px;
+}
+footer{
+    background-color: aqua;
+    width: 100%;
+    height: 50px;
+    border: 3px solid black;
+    margin: 3px;
+    text-decoration: none;
+    padding: 5px;
+}
