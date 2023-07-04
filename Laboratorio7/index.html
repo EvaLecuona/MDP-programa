@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+          <nav class="navbar bg-success">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="https://lh5.googleusercontent.com/p/AF1QipNWxk-P6H97PCGPmwpGriRhEEUWNKbY3aZ95EUM" alt="Bootstrap" width="50" height="50">
+              </a>
+            </div>
+          </nav>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ilustradores</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Colecciones
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Sobre nosotros</a>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-secondary btn-md mx-3">Carrito/0<i class="bi bi-cart3"></i></button>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-danger" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <main class="d-flex flex-row mb-2 w-100 bg-dark">
+      <br>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide d-block w-50 p-2" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="https://d22fxaf9t8d39k.cloudfront.net/e88a1c736c6b317da9f87c8040ffd1a68b6fcdf0629b8a1c803baa87bd0cef3449399.png" class="d-block w-100 h-100" alt="noimage">
+            <div class="carousel-caption d-none d-md-block">
+          
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_890701-MCO47752987474_102021-F.jpg" class="d-block w-100 h-100" alt="noimage">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://www.planetaanime.com.ar/wp-content/uploads/2022/09/planeta-anime-remera-hanako-kun-504x498.jpg.pagespeed.ce.Y4ye6riK2O.jpg" class="d-block w-100 h-100" alt="noimage">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4 p-2 w-75">
+        <div class="col">
+          <div class="card h-100">
+              <img src="https://http2.mlstatic.com/D_NQ_NP_718989-MLA52524047081_112022-W.jpg" class="card-img-top w-100 h-100" alt="noimage">
+              <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Click para ver</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_751301-MLA49275173994_032022-O.jpg" class="card-img-top w-100 h-100" alt="noimage">
+            <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Click para ver</button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://www.nendoaddicts.be/wp-content/uploads/2020/05/Nendo-Addicts-GSC-Demon-Slayer-Mini-figures-Tanjiro-sitting.jpg" class="card-img-top w-100 h-100" alt="noimage">
+            <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Click para ver</button>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://ih1.redbubble.net/image.2609372301.4060/ssrco,baseball_cap,womens,B7B4B8:25c8fc6a4c,front_three_quarter,tall_portrait,750x1000-bg,f8f8f8.jpg" class="card-img-top w-100 h-100" alt="noimage">
+            <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Click para ver</button>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://sc01.alicdn.com/kf/Hf9bdafef8cd64919bb6c1fbeb02faf39L/240149174/Hf9bdafef8cd64919bb6c1fbeb02faf39L.jpg" class="card-img-top w-100 h-100" alt="noimage">
+            <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Click para ver</button>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://http2.mlstatic.com/variedad-de-articulos-anime-mario-bros-pokemon-etc-D_NQ_NP_793411-MLM26923614273_022018-F.jpg" class="card-img-top w-100 h-100" alt="noimage">
+            <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Click para ver</button>
+            
+          </div>
+        </div>
+      </div>
+  </main>
+  <br>
+  <br>
+  <div class="row justify-content-evenly">
+    <div class="card p2 h-25 col-3 border-0">
+      <img src="https://images.vexels.com/media/users/3/214981/isolated/preview/7b8e4754b7104c5612588d7970273f36-icono-de-trazo-de-tienda.png" class="card-img-top w-100 h-100" alt="noimage">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text"><i class="bi bi-currency-dollar"></i><medium class="text-body-secondary">6000</medium></p>
+      </div>
+    </div>
+    <div class="card p2 h-25 col-3 border-0">
+      <img src="https://image.freepik.com/vector-gratis/plantilla-logotipo-tienda-linea_59362-81.jpg" class="card-img-top w-100 h-100" alt="noimage">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text"><i class="bi bi-currency-dollar"></i><medium class="text-body-secondary">10000</medium></p>
+      </div>
+    </div>
+    <div class="card p2 h-25 col-3 border-0">
+      <img src="https://img.freepik.com/vector-premium/haga-clic-icono-mano-diseno-estilo-contorno-moda-ilustracion-grafica-vector-haga-clic-simbolo-diseno-sitio-web-logotipo-aplicacion-interfaz-usuario_175838-2817.jpg" class="card-img-top w-100 h-100" alt="noimage">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text"><i class="bi bi-currency-dollar"></i><medium class="text-body-secondary">7000</medium></p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="row justify-content-center">
+    <div class="col-3">
+      <hr class="border-2 opacity-50 border-primary">
+    </div>
+    <div class="col-3">
+      <text >Revisa nuestros ultimos productos</text>
+
+    </div>
+    <div class="col-3">
+      <hr class="border-2 opacity-50 border-primary">
+
+    </div>
+  </div>
+  <br>
+  <br>
+  
+  <div class="card-group">
+    <div class="card mx-3 border-0">
+      <div class="position-relative">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_807387-MLA47182079830_082021-F.jpg" class="card-img-top" alt="noimage">
+        <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Click para ver</button>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card mx-3 border-0">
+      <div class="position-relative">
+        <img src="https://d22fxaf9t8d39k.cloudfront.net/2b079095eea3c6a8fb52c3142cdc31b53b66991134fb1867f8328b121189923267052.png" class="card-img-top" alt="noimage">
+        <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Click para ver</button>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+       
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card mx-3 border-0">
+      <div class="position-relative">
+       <img src="https://http2.mlstatic.com/D_NQ_NP_807387-MLA47182079830_082021-F.jpg" class="card-img-top" alt="noimage">
+       <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Click para ver</button>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card mx-3 border-0">
+      <div class="position-relative">
+       <img src="https://d22fxaf9t8d39k.cloudfront.net/72c1dc0765576e735c4bac2ab1830696fa8e44faecaf283449a17cf2f788b3a667052.png" class="card-img-top" alt="noimage">
+       <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Click para ver</button>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card mx-3 border-0">
+      <div class="position-relative">
+       <img src="https://d22fxaf9t8d39k.cloudfront.net/2b079095eea3c6a8fb52c3142cdc31b53b66991134fb1867f8328b121189923267052.png" class="card-img-top" alt="noimage">
+       <button type="button" class="btn btn-outline-light position-absolute bottom-0 start-50 translate-middle" data-bs-toggle="modal" data-bs-target="#exampleModal">Click para ver</button>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="row justify-content-center">
+    <div class="col-3">
+      <hr class="border-2 opacity-50 border-primary">
+    </div>
+    <div class="col-3">
+      <text >Siguenos en instagram</text>
+
+    </div>
+    <div class="col-3">
+      <hr class="border-2 opacity-50 border-primary">
+
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="row h-50 justify-content-center">
+    <div class="card mx-2 col-3">
+      <img src="https://img.freepik.com/psd-premium/vale-venta_710940-4075.jpg" class="card-img-top h-100" alt="noimage">
+      <div class="card-body">
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="row row-cols-1 row-cols-md-3">
+        <div class="col my-3">
+          <div class="card h-100">
+            <img src="https://www.planetaanime.com.ar/wp-content/uploads/2022/10/planeta-anime-remera-blanca-uchi-naruto-768x759.jpg.pagespeed.ce.OTbXJ37DDy.jpg" class="card-img-top w-100 h-100" alt="noimage">
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="card h-100">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_751301-MLA49275173994_032022-O.jpg" class="card-img-top w-100 h-100" alt="noimage">
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="card h-100">
+            <img src="https://www.nendoaddicts.be/wp-content/uploads/2020/05/Nendo-Addicts-GSC-Demon-Slayer-Mini-figures-Tanjiro-sitting.jpg" class="card-img-top w-100 h-100" alt="noimage">
+            
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="card h-100">
+            <img src="https://i.pinimg.com/474x/d8/b8/9e/d8b89e767c9eccc06a3d1d86200791d9.jpg" class="card-img-top w-100 h-100" alt="noimage">
+            
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="card h-100">
+            <img src="https://kiddiekustoms.com.ar/wp-content/uploads/2020/08/Evangelion3-Remera-Estampada_01.jpg" class="card-img-top w-100 h-100" alt="noimage">
+            
+          </div>
+        </div>
+        <div class="col my-3">
+          <div class="card h-100">
+            <img src="https://kiddiekustoms.com.ar/wp-content/uploads/2021/04/Demon-Slayer-Mask-Flowers-Remera-Estampada_01-768x1024.jpg" class="card-img-top w-100 h-100" alt="noimage">
+            
+          </div>
+        </div>
+      </div>
+  </div>
+   
+  <footer class="bg-dark text-center text-white mt-5">
+    <div class="container p-4 pb-0">
+      <section class="mb-4">
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="bi bi-facebook"></i>
+        </a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="bi bi-twitter"></i>
+        </a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="bi bi-google"></i>
+        </a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="bi bi-instagram"></i>
+        </a>
+      </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-white" href="https://www.youtube.com/watch?v=lLmFehmW_KQ" target="_blank">Tienda</a>
+    </div>
+  </footer>   
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-5">
+              <img src="https://www.planetaanime.com.ar/wp-content/uploads/2022/09/planeta-anime-remera-hanako-kun-504x498.jpg.pagespeed.ce.Y4ye6riK2O.jpg" class="h-75 img-fluid object-fit-cover" alt="noimage">
+              <div class="h-25 ms-3">
+                <img src="https://kiddiekustoms.com.ar/wp-content/uploads/2021/04/Demon-Slayer-Mask-Flowers-Remera-Estampada_01-768x1024.jpg" class="h-75 img-fluid object-fit-cover rounded-star w-25" alt="noimage">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_751301-MLA49275173994_032022-O.jpg" class="h-75 img-fluid object-fit-cover rounded-star w-25" alt="noimage">
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Colors:</small></p>
+                <button type="button" class="btn btn-success p-3"></button>
+                <button type="button" class="btn btn-warning p-3"></button>
+                <button type="button" class="btn btn-danger p-3"></button>
+                <p class="card-text"><small class="text-body-secondary">Tallas:</small></p>
+                <p class="card-text"><small class="text-body-secondary">Precio:</small></p>
+                <button type="button" class="btn btn-secondary btn-md">Add to cart <i class="bi bi-cart3"></i></button>
+                <button type="button" class="btn btn-link"><i class="bi bi-suit-heart"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+</body>
