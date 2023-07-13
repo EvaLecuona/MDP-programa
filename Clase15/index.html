@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="text-center">
+      <p>Lista de Elementos</p>
+    </div>
+    <div class="row d-flex">
+        <div class="col-5">
+          <label for="nombredelitem" class="visually-hidden">Nombre del Item</label>
+          <input type="text" readonly class="form-control-plaintext text-center" id="nombredelitem" value="Item name:">
+        </div>
+        <div class="col-2">
+          <label for="additem" class="visually-hidden">Add Item</label>
+          <input type="text" class="form-control w-100" id="additem" placeholder="Add Item">
+        </div>
+        <div class="col-1">
+          <button id="agregar" type="submit" class="btn btn-primary mb-3">Agregar</button>
+        </div>
+    </div>
+
+    <div id="addcontainer" class="container text-center">
+        <div id="fila1" class="row row-cols-2">
+            <div class="col bg-primary-subtle border border-dark">Item1</div>
+            <div class="col bg-primary-subtle border border-dark">
+                <button id="remover1" type="submit" class="btn btn-dark mb-3 position-relative mt-2">Eliminar</button>
+            </div>
+        </div>
+        <div id="fila2" class="row row-cols-2 fila">
+            <div class="col bg-primary-subtle border border-dark">Itemdos</div>
+            <div class="col bg-primary-subtle border border-dark">
+                <button id="remover2" type="submit" class="btn btn-dark mb-3 position-relative mt-3">Eliminar</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
